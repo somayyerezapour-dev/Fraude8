@@ -1,0 +1,8 @@
+# Versions chosen because they ship 32-bit Windows (win32) wheels for Python 3.8
+numpy==1.23.5
+pandas==1.5.3
+openpyxl==3.1.2
+pyinstaller==5.13.2
+# وابستگی‌های pandas (پلتفرم‌مستقل‌اند؛ صریح پین شدند تا download_wheels.bat حتماً آن‌ها را هم بگیرد)
+python-dateutil==2.8.2
+pytz==2023.3
